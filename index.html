@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Spotify API with jQuery Example</title>
+  <title>Social Spotify Page</title>
   <!-- Load Bootstrap -->
   <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -19,27 +19,88 @@
     <a class="buscar-btn" id="search_button"> <i class="fa fa-search"></i> </a>
   </div>
 
-  <!-- Load songs into here -->
-  <div class="container" id="song-list">
+  <div class="wrapper container" id="song-list">
+
+<!-- sidebar -->
+<!-- <div id="content">
+  <nav class="navbar navbar-expand-lg navbar-light ">
+      <div class="container-fluid">
+
+          <button type="button" id="sidebarCollapse" class="btn btn-info">
+              <i class="fas fa-align-left"></i>
+              <span>Toggle Sidebar</span>
+          </button>
+
+      </div>
+  </nav>
+</div>
+    <nav id="sidebar">
+      <div class="sidebar-header">
+          <h3>Bootstrap Sidebar</h3>
+      </div>
+
+      <ul class="list-unstyled components">
+          <p>Dummy Heading</p>
+          <li class="active">
+              <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
+              <ul class="collapse list-unstyled" id="homeSubmenu">
+                  <li>
+                      <a href="#">Home 1</a>
+                  </li>
+                  <li>
+                      <a href="#">Home 2</a>
+                  </li>
+                  <li>
+                      <a href="#">Home 3</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+              <a href="#">About</a>
+          </li>
+          <li>
+              <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Pages</a>
+              <ul class="collapse list-unstyled" id="pageSubmenu">
+                  <li>
+                      <a href="#">Page 1</a>
+                  </li>
+                  <li>
+                      <a href="#">Page 2</a>
+                  </li>
+                  <li>
+                      <a href="#">Page 3</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
+              <a href="#">Portfolio</a>
+          </li>
+          <li>
+              <a href="#">Contact</a>
+          </li>
+      </ul>
+  </nav> -->
+    <!-- Load songs into here -->
+    <!-- spotify results -->
     <div class="row">
-      <div id="song_0" class="col"></div>
-      <div id="song_1" class="col"></div>
-      <div id="song_2" class="col"></div>
+      <div id="song_0" class="col">Item 1</div>
+      <div id="song_1" class="col">2</div>
+      <div id="song_2" class="col">3</div>
     </div>
     <div class="row">
-      <div id="song_3" class="col"></div>
-      <div id="song_4" class="col"></div>
-      <div id="song_5" class="col"></div>
+      <div id="song_3" class="col">item</div>
+      <div id="song_4" class="col">item</div>
+      <div id="song_5" class="col">item</div>
     </div>
     <div class="row">
-      <div id="song_6" class="col"></div>
-      <div id="song_7" class="col"></div>
-      <div id="song_8" class="col"></div>
+      <div id="song_6" class="col">item</div>
+      <div id="song_7" class="col">item</div>
+      <div id="song_8" class="col">item</div>
     </div>
     <div class="row">
-      <div id="song_9" class="col"></div>
-      <div id="song_10" class="col"></div>
-      <div id="song_11" class="col"></div>
+      <div id="song_9" class="col">item</div>
+      <div id="song_10" class="col">item</div>
+      <div id="song_11" class="col">item</div>
     </div>
 </div>
 

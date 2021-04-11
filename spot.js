@@ -1,5 +1,10 @@
 // Document has been loaded
 $( document ).ready(function() {
+
+
+  $('#sidebarCollapse').on('click', function () {
+    $('#sidebar').toggleClass('active');
+});
      // Helper Function to Extract Access Token for URL
     const getUrlParameter = (sParam) => {
       let sPageURL = window.location.search.substring(1),////substring will take everything after the https link and split the #/&
